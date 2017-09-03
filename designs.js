@@ -18,12 +18,15 @@ const table = document.getElementById('pixel_canvas');
 
 // When size is submitted by the user, call makeGrid()
 submitButton.addEventListener('click', function() {
-	makeGrid(gridWidth.value, gridHeight.value);
+	makeGrid(gridHeight.value, gridWidth.value);
 });
 
-function makeGrid(width, height) {
-
-// Your code goes here!
+// Make an N by M grid based on the grid size inputs
+function makeGrid(height, width) {
+	// Clear the grid, if one exists
+	if (table.innerHTML.length > 0) {
+		table.innerHTML = '';
+	}
 	for (let i = 0; i < height; i++) {
 		let row = document.createElement('tr');
 		table.appendChild(row);
@@ -32,5 +35,4 @@ function makeGrid(width, height) {
 			row.appendChild(col);
 		}
 	}
-
 }

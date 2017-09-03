@@ -28,10 +28,19 @@ function makeGrid(height, width) {
 		table.innerHTML = '';
 	}
 	for (let i = 0; i < height; i++) {
+		/*
+		Create a table row. MDN used as a reference for the createElement()
+		and appendChild() methods.
+		*/
 		let row = document.createElement('tr');
+
+		// Append the row to the table
 		table.appendChild(row);
 		for (let j = 0; j < width; j++) {
+			// Create a table cell
 			let col = document.createElement('td');
+
+			// Append the cell to the row
 			row.appendChild(col);
 		}
 	}

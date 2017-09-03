@@ -17,6 +17,9 @@ const gridWidth = document.getElementById('input_width');
 const table = document.getElementById('pixel_canvas');
 
 // When size is submitted by the user, call makeGrid()
+submitButton.addEventListener('click', function() {
+	makeGrid(gridWidth.value, gridHeight.value);
+});
 
 function makeGrid(width, height) {
 

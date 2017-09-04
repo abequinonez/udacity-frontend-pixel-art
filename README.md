@@ -1,16 +1,13 @@
-# Pixel Art Maker Project
+# Udacity Front-End Pixel Art Maker Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+This project, a single page web application that allows users to draw pixel art, was developed as part of the Udacity Front-End Web Developer Nanodegree Program. The project guidelines called for the use of DOM-manipulation techniques, such as selecting elements and adding event listeners, to create a grid on which users can interact with.
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+1. After cloning or downloading this repository, open index.html in a web browser. Alternatively, you may visit the web page [here](https://abequinonez.github.io/udacity-frontend-pixel-art).
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+2. Select your preferred grid height and width from the input boxes.
 
-## Contributing
+3. Click on the 'Make Grid!' button.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+4. Select a color from the color picker and start clicking on grid cells!

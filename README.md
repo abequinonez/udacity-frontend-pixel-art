@@ -1,6 +1,6 @@
 # Udacity Front-End Pixel Art Maker Project
 
-This project, a single page web application that allows users to draw pixel art, was developed as part of the Udacity Front-End Web Developer Nanodegree Program. The project guidelines called for the use of DOM-manipulation techniques, such as selecting elements and adding event listeners, to create a grid on which users can interact with.
+This project, a single page web application that allows users to draw pixel art, was developed as part of the Udacity Front-End Web Developer Nanodegree Program. The project guidelines called for the use of DOM-manipulation techniques, such as selecting elements and adding event listeners, to create a grid on which users can interact with. The DOM is manipulated using vanilla JavaScript (document object methods). In addition, variables are declared using ES6 syntax (const and let).
 
 ## Instructions
 

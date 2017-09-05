@@ -10,12 +10,22 @@
 
     <h2>Choose Grid Size</h2>
 
-    <!-- Added "javascript:void(0)" to prevent page reload -->
-    <form id="sizePicker" action="javascript:void(0);">
-        Grid Height:
-        <input type="number" id="input_height" name="height" min="1" value="1">
-        Grid Width:
-        <input type="number" id="input_width" name="width" min="1" value="1">
+    <!--
+    I removed "javascript:void(0)" to allow the default submit action.
+    Originally, an event listener would have listened for the submit
+    button's click event, but now a listener will listen for the form's
+    submit event instead.
+    -->
+    <form id="sizePicker">
+        <!--
+        As suggested by a Udacity reviewer, I added label elements to the input
+        captions. I also added "min", "max" and "required" attributes to enforce
+        stricter browser form validation.
+        -->
+        <label for="input_height">Grid Height:</label>
+        <input type="number" id="input_height" name="height" min="1" max="40" value="1" required>
+        <label for="input_width">Grid Width:</label>
+        <input type="number" id="input_width" name="width" min="1" max="40" value="1" required>
         <button>Make Grid!</button>
     </form>
 
